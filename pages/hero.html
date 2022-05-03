@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+    body,html{height: 100%;
+        margin: 0;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    section{
+        background-image: linear-gradient(rgba(245, 142, 219, 0.5), rgba(162, 235, 253, 0.863)), url('../image/flowers.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .logo{
+         color: blueviolet;
+        font-size: 3rem;
+        left: 2px;
+        top: 20px;
+        position: absolute;
+    }
+    
+    input[type="text"]
+    {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 1.3rem;
+        border-radius: 5px;
+        padding: 5px;
+}
+    section>div{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        display: flex ;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2rem;
+        font-weight: 450;
+        align-items: center;
+        width: 3rem;
+    }
+section>div>a{
+    text-decoration: none;
+    color: purple;
+
+}
+section>p{
+    left: 2px;
+    bottom: 20px;
+    position: absolute;
+    color: purple;
+    font-size: 1,3rem;
+}
+section main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section main h1{
+    font-size: 3rem;
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px palevioletred;
+    
+
+}
+section main h3{
+    font-size: 2rem;
+    color:palevioletred;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+section main button{
+    display: inline-block;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-shadow: -2px 3px 0px rgba(245, 142, 219, 0.5);
+
+}
+section main button:hover{
+    background-color: pink;
+
+}
+section main button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+    </style>
+</head>
+<body>
+   <section>
+       <a href=""logo class="logo">logo</a>
+       <input type="text"placeholder="search">
+       <p>Whatever@gamil.com</p>
+       <div>
+           <a href=""><i class="fa fa-facebook"></i></a>
+           <a href=""><i class="fa fa-twitter"></i></a>
+           <a href=""><i class="fa fa-instagram"></i></a>
+           <a href=""><i class="fa fa-whatsapp"></i></a>
+       </div>
+       <main>
+           <h1>hello hi I am BUSISIWE KHANYILE</h1>
+           <h3>UX/UI desinger and web developer</h3>
+           <button><a href="http//">Hire me</a></button>
+       </main>
+   </section> 
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 400px;
+            background-color: blue;
+            height: 450px;
+        }
+        .child{
+            width: 220px;
+            height: 250px;
+            background-color: lightblue;
+            transform: translate(2rem,3rem) ; 
+            transition: width 1s;
+        }
+        .child:hover{
+
+            width: 400px;
+        }
+        /* .child2{
+            background-color: aqua;
+            width: 30px;
+            height: 150px;
+            transform: translateX(3rem); */
+        /* } */
+        button{
+
+            background-color: aqua;
+            display: inline-block;
+            margin-top: 4rem;
+            padding: 50px 50px;
+            position: absolute;
+            top: 75%;
+            bottom: 50%;
+            left: 50%;
+            right: 50%;
+           transform: translate(-50% -50%);
+           transition: all 1s ease-out 1s ;
+
+           /* transform:rotate(-90deg) translate(2rem 3rem) ;
+            transition: with 3s; */
+        }
+        
+        a{
+            /* display: flex; */
+            margin: auto;
+            text-align: center;
+        }
+        button:hover{
+            background-color: palevioletred;
+            /* width: 400px; */
+            transform: translate(50%);
+            top: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+        </div>
+        <div class="child2"></div>
+    </div>
+    <button>
+        <a href="">buy now</a>
+    </button>
+</body>
+</html>
